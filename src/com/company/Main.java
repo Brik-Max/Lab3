@@ -10,6 +10,7 @@ public class Main {
                 new Divide(),
                 new Power()
         };
+
         int a = 10, b = 2;
         for (IOperation op: operations){
             System.out.println(op.getName());
